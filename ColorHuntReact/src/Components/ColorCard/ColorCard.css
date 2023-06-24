@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 20px 20px;
+}
+.paleta{
+    border-radius: 15px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+.color-box{
+    height: 25%;
+    width: 100%;
+}
+span{
+    font-size: 0.8rem;
+    color: rgb(172, 172, 172);
+}
+
+.footerCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

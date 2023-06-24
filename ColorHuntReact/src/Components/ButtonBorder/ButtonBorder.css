@@ -1,0 +1,21 @@
+.buttonBorder button{
+    margin: 10px 15px;
+    background-color: white;
+    border: solid rgba(168, 168, 168, 0.356) 1px;
+    border-radius: 10px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    padding: 12px;
+    justify-content: center;
+}
+.buttonBorder button:hover{
+    background-color: rgba(214, 214, 214, 0.301);
+    cursor: pointer;
+}
+
+.buttonBorder i{
+    font-size: 1.2rem;
+}
